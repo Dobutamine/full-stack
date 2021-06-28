@@ -7,6 +7,7 @@ services:
       - 80:80
     volumes:
       - ./web:/web
+    command: ./docker-entrypoint.sh
 
   api:
     build: ./api
@@ -16,6 +17,7 @@ services:
       DB_URL: mongodb://db/monemu
     volumes:
       - ./api:/api
+    command: ./docker-entrypoint.sh
 
   db:
     image: mongo:4.0-xenial
