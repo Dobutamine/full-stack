@@ -4,7 +4,7 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
   // return all users
-  res.send('API is running!')
+  res.send('API is running!!!!')
 })
 
 
