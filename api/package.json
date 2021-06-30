@@ -3,9 +3,11 @@
     "start": "nodemon --ignore './tests' index.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "joi": "^17.4.0",
+    "lodash": "^4.17.21",
     "mongoose": "^5.12.15"
   },
   "devDependencies": {
